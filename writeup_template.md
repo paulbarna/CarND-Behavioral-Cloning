@@ -70,10 +70,10 @@ The model used an adam optimizer, so the learning rate was not tuned manually (m
 #### 4. Appropriate training data
 
 Training data was chosen to keep the vehicle driving on the road. I used a combination of:	
-#### Recording while the car is running on the center of the road (track 1 and track 2)
-#### Recording while the car running on the center of the road counter-clockwise (track 1)
-#### Recover manoeuvres (track 1)
-#### Recover manoeuvres if the car veers off to the side (track 1) 
+##### Recording while the car is running on the center of the road (track 1 and track 2)
+##### Recording while the car running on the center of the road counter-clockwise (track 1)
+##### Recovery lap manoeuvres (track 1)
+##### Recovery lap manoeuvres if the car veers off to the side (track 1) 
 
 For details about how I created the training data, see the next section. 
 
