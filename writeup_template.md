@@ -53,7 +53,7 @@ The model.py file contains the code for training and saving the convolution neur
 
 #### 1. An appropriate model architecture has been employed
 
-My model consists of a convolution neural network network architecture, which consists of 9 layers, including a normalization layer, 5 convolutional layers, and 3 fully connected layers 
+My model has a convolution neural network network architecture, which consists of 9 layers, including a normalization layer, 5 convolutional layers, and 3 fully connected layers 
 
 The model includes RELU layers to introduce nonlinearity (model.py code line 166-170), and the data is normalized in the model using a Keras lambda layer (model.py code line 163). 
 
@@ -70,10 +70,10 @@ The model used an adam optimizer, so the learning rate was not tuned manually (m
 #### 4. Appropriate training data
 
 Training data was chosen to keep the vehicle driving on the road. I used a combination of:	
-	Recording while the car is running on the center of the road (track 1 and track 2)
-	Recording while the car running on the center of the road counter-clockwise (track 1)
-	Recover manoeuvres (track 1)
-	Recover manoeuvres if the car veers off to the side (track 1) 
+#### Recording while the car is running on the center of the road (track 1 and track 2)
+#### Recording while the car running on the center of the road counter-clockwise (track 1)
+#### Recover manoeuvres (track 1)
+#### Recover manoeuvres if the car veers off to the side (track 1) 
 
 For details about how I created the training data, see the next section. 
 
