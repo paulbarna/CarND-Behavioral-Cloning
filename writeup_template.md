@@ -23,7 +23,7 @@ The goals / steps of this project are the following:
 [image4]: ./examples/recovery_lap_CounterClockwise_tk1.jpg "Recovery Track 1 counter-clockwise"
 [image5]: ./examples/recovery_lap_left_tk1.jpg "Recovery Track 1 Left Camera"
 [image6]: ./examples/recovery_lap_tk1.jpg "Recovery Track 1 Center Camera"
-[image7]: ./examples/MeanSquaredErrorLoss_8epochs.png "Mean Squared Error Loss"
+[image7]: ./examples/MeanSquaredErrorLoss_8epochs.PNG "Mean Squared Error Loss"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
